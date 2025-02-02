@@ -78,3 +78,18 @@ customers.push(kennethJohnson)
 
 //Logging full array.
 console.log("Customer Feedback:", customers)
+
+//Task 5 Inventory Management System Scenario
+
+//Declaring an object with properties.
+let inventory = {
+    itemName: "Hockey Stick",
+    stockCount: 368,
+    price: 185
+}
+
+//Adding a method the multiplies two numerical properties.
+inventory.calculateTotalValue = inventory.stockCount * inventory.price
+
+//Logging the updated object.
+console.log("Hockey Stick Inventory:", inventory)
