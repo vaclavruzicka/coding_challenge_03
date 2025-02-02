@@ -3,13 +3,13 @@
 //Declaring an array with five numerical values.
 let prices = [37.99, 115.99, 121.99, 124.99, 129.99]
 
-//Add a new price to the array.
+//Adding a new price to the array.
 prices.push(134.99)
 
-//Remove the first price from the array.
+//Removing the first price from the array.
 prices.shift()
 
-//Log the updated price list.
+//Loggin the updated price list.
 console.log("Prices:", prices)
 
 //Task 2 - Modifying Customer Orders Scenario
@@ -23,7 +23,7 @@ orders.splice(2, 2, 19, 23);
 //Calculating the sum of the array.
 let total_orders = orders.reduce((sum, order) => sum + order, 0)
 
-//Log the updated array and the total of the array
+//Logging the updated array and the total of the array
 console.log("Orders:", orders)
 console.log("Sum of Orders:", total_orders)
 
@@ -43,5 +43,5 @@ employee.performanceScore = 9.7
 //Adding a new property to the an object.
 employee.promotionEligible = false
 
-//Log the updated object to the console.
+//Logging the updated object to the console.
 console.log("John Smith Information:", employee)
