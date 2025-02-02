@@ -10,7 +10,7 @@ prices.push(134.99)
 prices.shift()
 
 //Log the updated price list.
-console.log(prices)
+console.log("Prices:", prices)
 
 //Task 2 - Modifying Customer Orders Scenario
 
