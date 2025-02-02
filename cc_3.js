@@ -26,3 +26,22 @@ let total_orders = orders.reduce((sum, order) => sum + order, 0)
 //Log the updated array and the total of the array
 console.log("Orders:", orders)
 console.log("Sum of Orders:", total_orders)
+
+//Task 3 - Employee Performance Tracking Scenario
+
+//Declaring an object with properties.
+let employee = {
+    name: "John Smith",
+    role: "Manager",
+    performanceScore: 9.5,
+    isActive: true
+};
+
+//Updating property withing an object.
+employee.performanceScore = 9.7
+
+//Adding a new property to the an object.
+employee.promotionEligible = false
+
+//Log the updated object to the console.
+console.log("John Smith Information:", employee)
