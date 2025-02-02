@@ -45,3 +45,36 @@ employee.promotionEligible = false
 
 //Logging the updated object to the console.
 console.log("John Smith Information:", employee)
+
+//Task 4 - Customer Feedback Records
+
+//Declaring objects and creating an array out of the objects.
+let maggieWaters = {
+    customerName: "Maggie Waters",
+    feedbackText: "Great customer service and good product.",
+    rating: 9
+}
+let graysonWhite = {
+    customerName: "Grayson White",
+    feedbackText: "Nice enough staff and solid product.",
+    rating: 7
+}
+let janePaulson = {
+    customerName: "Jane Paulson",
+    feebackText: "Unfriendly Staff and horrible product.",
+    rating: 2
+}
+
+let customers = [maggieWaters, graysonWhite, janePaulson]
+
+//Creating new object and adding it to the existing array.
+let kennethJohnson = {
+    customerName: "Kenneth Johnson",
+    feebackText: "Amazing serivce. I loved it!",
+    rating: 10
+}
+
+customers.push(kennethJohnson)
+
+//Logging full array.
+console.log("Customer Feedback:", customers)
